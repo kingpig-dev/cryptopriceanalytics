@@ -4,6 +4,7 @@ import { createMuiTheme, CssBaseline, responsiveFontSizes, Theme, ThemeOptions, 
 import { useAppSelector } from './app/hooks';
 import { selectAppState } from './features/appStateSlice';
 import Main from './pages/Main';
+// import sourceMap from 'source-map';
 
 const App: React.FC = () => {
   const appState = useAppSelector(selectAppState);

@@ -1,20 +1,20 @@
 import React from 'react';
 import {
-  AccountBalanceRounded,
+  // AccountBalanceRounded,
   DataUsageRounded,
-  LibraryBooks,
+  // LibraryBooks,
   SelectAllRounded,
   TollRounded,
-  TrendingUpRounded
+  // TrendingUpRounded
 } from '@material-ui/icons';
 import { BrowserRouter } from 'react-router-dom';
 import PageLayout from '../components/templates/PageLayout';
 import Overview from './analytics/Overview';
-import Exchanges from './explore/Exchanges';
-import Trends from './analytics/Trends';
+// import Exchanges from './explore/Exchanges';
+// import Trends from './analytics/Trends';
 import Coins from './explore/Coins';
 import CoinDetails from './explore/CoinDetails';
-import Updates from './explore/Updates';
+// import Updates from './explore/Updates';
 import DeFi from './explore/DeFi';
 import { RootModule } from '../models';
 
