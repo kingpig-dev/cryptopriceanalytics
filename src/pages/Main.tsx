@@ -30,13 +30,13 @@ const Main: React.FC = () => {
           page: <Overview />,
           index: 0
         },
-        {
-          label: 'Trends',
-          path: '/trends',
-          icon: <TrendingUpRounded />,
-          page: <Trends />,
-          index: 1
-        }
+        // {
+        //   label: 'Trends',
+        //   path: '/trends',
+        //   icon: <TrendingUpRounded />,
+        //   page: <Trends />,
+        //   index: 1
+        // }
       ]
     },
     {
@@ -53,21 +53,21 @@ const Main: React.FC = () => {
             page: <CoinDetails />
           }
         },
-        {
-          label: 'Exchanges',
-          path: '/exchanges',
-          icon: <AccountBalanceRounded />,
-          page: <Exchanges />,
-          index: 3
+        // {
+        //   label: 'Exchanges',
+        //   path: '/exchanges',
+        //   icon: <AccountBalanceRounded />,
+        //   page: <Exchanges />,
+        //   index: 3
 
-        },
-        {
-          label: 'Updates',
-          path: '/updates',
-          icon: <LibraryBooks />,
-          page: <Updates />,
-          index: 4
-        },
+        // },
+        // {
+        //   label: 'Updates',
+        //   path: '/updates',
+        //   icon: <LibraryBooks />,
+        //   page: <Updates />,
+        //   index: 4
+        // },
         {
           label: 'DeFi',
           path: '/defi',

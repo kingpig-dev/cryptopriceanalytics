@@ -83,7 +83,7 @@ const CorrelationHeatmap: React.FC = () => {
 
   const options: ApexOptions = {
     chart: {
-      id: 'CryptoscapesCorrelationHeatmap',
+      id: 'AnalysisCorrelationHeatmap',
       height: '100%',
       fontFamily: 'Gilroy, sans-serif',
       type: 'heatmap',

@@ -53,13 +53,13 @@ const Overview: React.FC = () => {
         </Grid>
         <Grid item lg={4}>
           <Grid container className={classes.innerWrapper} spacing={0}>
-            <Grid item xs={12} style={{ height: 400 }}>
+            <Grid item xs={12} style={{ height: 410 }}>
               <CoinDominanceCard />
             </Grid>
-            <Grid item xs={12} style={{ height: 205 }}>
+            {/* <Grid item xs={12} style={{ height: 205 }}>
               <GasOracleCard />
-            </Grid>
-            <Grid item xs={12} style={{ height: `calc(100% - ${400 + 205 + theme.spacing(3) * 2}px)` }}>
+            </Grid> */}
+            <Grid item xs={12} style={{ height: `calc(100% - ${400 + theme.spacing(3) * 2}px)` }}>
               <TrendingCoinsCard />
             </Grid>
           </Grid>

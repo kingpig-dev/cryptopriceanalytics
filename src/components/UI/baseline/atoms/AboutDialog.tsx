@@ -48,7 +48,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
     <DialogLayout
       open={open}
       toggleClose={toggleClose}
-      title="Cryptoscapes"
+      title="Analysis"
       subheader={`Version ${version}`}
       maxWidth="xs"
     >
@@ -79,14 +79,14 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
       <Typography variant="caption" color="textSecondary">
         <WarningRounded className={classes.warningIcon} />
         DANGER: Do not use this dashboard for trading or other financial activity that requires data with real-time
-        latency! This dashboard can be slow to update due to API rate limitations, and Cryptoscapes will not be liable
+        latency! This dashboard can be slow to update due to API rate limitations, and Analysis will not be liable
         for any losses incurred.
       </Typography>
       <Box display="flex" justifyContent="space-between" paddingTop={3} paddingBottom={2}>
         <Button
           className={classes.linkButton}
           variant="contained"
-          href='https://github.com/leonardtng/cryptoscapes'
+          href='https://github.com/leonardtng/Analysis'
           target='_blank'
           rel="noopener noreferrer"
           color="primary"
@@ -98,7 +98,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
         <Button
           className={classes.linkButton}
           variant="contained"
-          href='https://github.com/leonardtng/cryptoscapes/projects/1'
+          href='https://github.com/leonardtng/Analysis/projects/1'
           target='_blank'
           rel="noopener noreferrer"
           color="secondary"

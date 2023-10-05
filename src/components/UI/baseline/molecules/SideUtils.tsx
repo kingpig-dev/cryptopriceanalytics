@@ -22,7 +22,7 @@ const SideUtils: React.FC = () => {
   return (
     <Box className={classes.sideUtils}>
       <GlobalLoadingProgress />
-      <GitHubButton />
+      {/* <GitHubButton /> */}
     </Box>
   )
 }
