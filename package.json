@@ -24,7 +24,7 @@
     "react": "^17.0.2",
     "react-apexcharts": "^1.3.9",
     "react-dom": "^17.0.2",
-    "react-gauge-chart": "^0.4.0",
+    "react-gauge-chart": "^0.3.0",
     "react-redux": "^7.2.4",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
@@ -37,7 +37,7 @@
   "scripts": {
     "install": "npm i -force",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "npm i -force && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
